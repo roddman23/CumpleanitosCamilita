@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fullcalendar/core@5.10.1/main.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@5.10.1/main.min.css" />
+</head>
+<body>
+    <header>
+        <h1>¡Feliz Cumpleaños Amor de mi vida mi camilita!</h1>
+    </header>
+    <section class="text-section">
+        <p id="text1">Feeeeliz cumpleaños amor de mi vida, muy pero muy feliz cumpleaños espero que sea un dia hermoso y se te cumplan todos tus deseos, sos la persona mas hermosa que conozco y con quien quiero pasar el resto de mi vida asi que ojala sea el primer de muchos cumpleaños juntos</p>
+        <button onclick="showImage('Imagenes/foto3.jpeg')">Toca aca</button>
+        <p id="text2">Ojala nunca nos falten nuestras salidas y nuestras hamburguesitas, por que cada plan con vos, es el mejor del mundo, no importa si lo hacemos 10 veces siempre es mejor con vos, todo con vos es mejor</p>
+        <button onclick="showImage('Imagenes/foto5.jpeg')">Toca aca</button>
+        <p id="text3">Y no importa las discuciones que tengamos, las diferencias que solventemos, no importa nada de todo eso, por que siempre se que vamos a dejar todo para que reine el amor y el compañerismo que nos tenemos, y ojala siempre tengamos detalles preciosos con el otro, como este tuyo hacia mi, aguante temperley</p>
+        <button onclick="showImage('Imagenes/foto7.jpeg')">Toca aca</button>
+    </section>
+    <section class="carousel">
+        <h2>Algunas de nuestras pocas pero se que van a ser mas fotos</h2>
+        <div class="carousel-container">
+            <div><img src="./Imagenes/foto1.jpeg" alt="Foto 1"></div>
+            <div><img src="./Imagenes/foto2.jpeg" alt="Foto 2"></div>
+            <div><img src="./Imagenes/foto4.jpeg" alt="Foto 3"></div>
+            <div><img src="./Imagenes/foto6.jpeg" alt="Foto 3"></div>
+        </div>
+    </section>
+    <section class="video-carousel">
+        <h2>Algunos videitos</h2>
+        <div class="video-carousel-container">
+            <div>
+                <video controls>
+                    <source src="./Videos/WhatsApp Video 2024-07-28 at 16.22.39 (1).mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+            <div>
+                <video controls>
+                    <source src="./Videos/WhatsApp Video 2024-07-28 at 16.21.38.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+            <div>
+                <video controls>
+                    <source src="./Videos/WhatsApp Video 2024-07-28 at 16.22.39.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Con cariño, tu novio rod</p>
+    </footer>
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeImage()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+    <audio id="birthdaySong" src="./Audio/feliz-cumpleanos-feliz-.mp3" autoplay></audio>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/core@5.10.1/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/daygrid@5.10.1/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/party-js@3.4.0/lib/index.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
